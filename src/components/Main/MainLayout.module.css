@@ -1,0 +1,20 @@
+.mainContent {
+  margin-top: calc(var(--default-padding) * 2);
+  padding: var(--default-padding);
+  display: grid;
+  grid-template-columns: repeat(3, 390px);
+  gap: var(--default-padding);
+  justify-items: center;
+}
+
+@media (max-width: 600px) {
+  .mainContent {
+    grid-template-columns: 400px;
+  }
+}
+
+@media (max-width: 350px) {
+  .mainContent {
+    grid-template-columns: 1fr;
+  }
+}

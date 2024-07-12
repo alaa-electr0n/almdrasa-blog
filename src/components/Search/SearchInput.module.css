@@ -1,0 +1,29 @@
+.searchInput {
+  background-color: var(--input-background);
+  border-radius: var(--default-border-radius);
+  position: relative;
+  border-radius: var(--default-border-radius);
+  overflow: hidden;
+}
+label {
+  display: inline;
+  position: absolute;
+  padding: 2px;
+  top: 6px;
+  right: 2px;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: var(--input-background);
+  padding: 0.8rem 0.8rem 0.8rem var(--default-padding);
+  z-index: 1;
+}
+
+input:focus {
+  box-shadow: 2.4rem 1.2rem 2rem var(--color-border-btn-75);
+}
+
+::-webkit-input-placeholder {
+  color: var(--input-color-placeholder);
+}

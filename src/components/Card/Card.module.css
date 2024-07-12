@@ -1,0 +1,66 @@
+.cardContainer {
+  padding: var(--default-padding);
+  border: 1px solid var(--faint-gray-color);
+  border-radius: var(--default-border-radius);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--default-padding);
+  justify-content: left;
+}
+
+.cardImg {
+  width: 36rem;
+  height: 24rem;
+  border-radius: var(--small-border-raduis);
+}
+
+.category {
+  position: relative;
+  padding: 6px;
+
+  text-align: center;
+  font-size: var(--title-thin-font-size);
+  font-weight: var(--body-medium-font-weight);
+  color: var(--color-accent);
+  background-color: var(--color-accent-5);
+  align-self: flex-start;
+  border-radius: var(--small-border-raduis);
+}
+
+.cardTitle {
+  font-size: var(--heading-h3-semibold-font-size);
+  font-weight: var(--semibold-font-weight);
+  color: var(--card-color-text-primary);
+  text-wrap: wrap;
+}
+
+.authorRow {
+  display: flex;
+  align-items: center;
+  gap: var(--default-padding);
+  justify-content: space-around;
+}
+
+.authorImg {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+
+.authorName,
+.postDate {
+  font-size: var(--body-small-font-size);
+  line-height: var(--body-medium-line-height);
+  color: var(--card-color-text-light);
+}
+
+.authorName {
+  font-weight: var(--semibold-font-weight);
+}
+.postDate {
+  font-weight: var(--article-regular-font-weight);
+  margin-left: auto;
+}

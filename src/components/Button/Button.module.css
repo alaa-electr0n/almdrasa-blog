@@ -1,0 +1,30 @@
+.btn {
+  align-self: center;
+  grid-column: 2/3;
+  margin-top: var(--default-padding);
+  border: 1px solid (var(--color-border-btn-75));
+  font-size: var(--body-small-font-size);
+  font-weight: var(--body-medium-font-weight);
+  padding: 1.2rem 2.2rem;
+  border-radius: var(--small-border-raduis);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+button:focus,
+button:focus-visible {
+  color: var(--color-accent);
+  border-color: var(--color-accent-5);
+}
+
+.show {
+  color: var(--color-btn-text);
+}
+
+.hide {
+  color: var(--color-dark);
+  border-color: var(--white);
+}

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* text */
+  --regular-font-family: "Work Sans", Helvetica, sans-serif;
+  --quote-font-family: "Source Serif 4", Helvetica, serif;
+
+  --article-regular-font-size: 2rem;
+  --article-regular-font-weight: 400;
+  --article-lg-regular-line-height: 32px;
+  --article-quote-regular-font-size: 2.4rem;
+
+  --body-font-size: 1.8rem;
+  --title-thin-font-size: 1.4rem;
+  --body-regular-line-height: 26px;
+
+  --body-small-font-size: 1.6rem;
+  --body-medium-font-weight: 500;
+  --body-medium-line-height: 24px;
+
+  --heading-h1-semibold-font-size: 3.6rem;
+  --heading-h3-semibold-font-size: 2.4rem;
+  --heading-h1-semibold-line-height: 40px;
+  --semibold-font-weight: 600;
+
+  /* spaces */
+
+  --default-padding: 1.6rem;
+  --default-border-radius: 12px;
+  --small-border-raduis: 6px;
+
+  /* colors */
+  --card-color-text-light: #97989f;
+  --card-color-text-primary: #181a2a;
+  --page-text-color: #3b3c4a;
+
+  --color-accent: #4b6bfb;
+  --color-accent-5: #4b6bfb0d;
+  --color-dark: #141624;
+
+  --color-btn-text: #696a75;
+  --color-border-btn-75: #696a754d;
+
+  --input-color-bg: #52535f;
+  --input-color-placeholder: #a1a1aa;
+  --faint-gray-color: #e8e8ea;
+  --thin-page-text-color: #3b3c4a;
+  --input-background: #f4f4f5;
+
+  --secondary-50: #f6f6f7;
+  --white: #ffffff;
+
+  /* background: #97989F;
+  background: #181A2A;
+  background: #E8E8EA;
+  background: #4B6BFB;
+  background: #FFFFFF;
+  background: #696A75;
+  background: #A1A1AA;
+  background: #52525B;
+  background: #141624;
+  background: #F6F6F7;
+  background: #141624;
+  background: #52525B;
+  --color-border-btn-75: #696A754D; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--regular-font-family);
+  font-size: var(--body-font-size);
+  background-color: var(--white);
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button:focus,
+button:focus-visible {
+}

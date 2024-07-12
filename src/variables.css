@@ -1,0 +1,57 @@
+:root {
+  --regular-font-family: "Work Sans", Helvetica;
+  --quote-font-family: "Source Serif Pro", Helvetica;
+
+  --article-regular-font-size: 2rem;
+  --article-regular-font-weight: 400;
+  --article-lg-regular-line-height: 32px;
+  --article-quote-regular-font-size: 2.4rem;
+
+  --body-font-size: 1.8rem;
+  --body-b3-regular-line-height: 26px;
+
+  --body-small-font-size: 1.6rem;
+  --body-medium-font-weight: 500;
+  --body-medium-line-height: 24px;
+
+  --heading-h1-semibold-font-size: 3.6rem;
+  --heading-h3-semibold-font-size: 2.4rem;
+  --heading-h1-semibold-line-height: 40px;
+  --semibold-font-weight: 600;
+
+  /* text colors */
+  --card-color-text-light: #97989f;
+  --card-color-text-primary: #181a2a;
+  --page-text-color: #3b3c4a;
+
+  --color-accent: #4b6bfb;
+  --color-accent-5: #4b6bfb0d;
+
+  --color-btn-text: #696a75;
+  --color-border-btn-75: #696a754d;
+
+  --input-color-bg: #52535f;
+  --input-color-placeholder: #a1a1aa;
+  --space-block-color: #e8e8ea;
+
+  --secondary-50: #f6f6f7;
+  --secondary-900: #141624;
+  --white: #ffffff;
+}
+
+/* background: #97989F;
+background: #181A2A;
+background: #E8E8EA;
+background: #3B3C4A;
+background: #4B6BFB;
+background: #FFFFFF;
+background: #696A75;
+background: #F4F4F5;
+background: #A1A1AA;
+background: #52525B;
+background: #141624;
+background: #F6F6F7;
+--color-accent-5%: #4B6BFB0D;
+background: #141624;
+background: #52525B;
+--color-border-btn-75: #696A754D; */
