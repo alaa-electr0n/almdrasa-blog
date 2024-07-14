@@ -1,43 +1,49 @@
-import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 import Loader from "../Loader/Loader";
 import styles from "./MainLayout.module.css";
 import Button from "../Button/Button";
-
-const URL = `http://localhost:9000`;
+import { shuffleArray } from "../../utilities/utilfunctions";
+import { useArticles } from "../../contexts/ArticlesContexts";
 
 function MainLayout() {
-  const [cards, setCards] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const {
+    cards,
+    isLoading,
+    showMore,
+    setShowMore,
+    setDisplayedCards,
+    searchCards: displayedCards,
+  } = useArticles();
 
-  useEffect(
-    function () {
-      async function fetchPosts() {
-        setIsLoading(true);
-        try {
-          const res = await fetch(`${URL}/blogPosts`);
+  function handleMoreArticles() {
+    const shuffledArray = shuffleArray(cards);
+    const moreArticles = shuffledArray.slice(0, 5);
 
-          const data = await res.json();
-          console.log(data);
-          setCards(data);
-        } catch {
-          throw new Error("Error loading Data from json server");
-        } finally {
-          setIsLoading(false);
-        }
-      }
-      fetchPosts();
-    },
-    [setCards, setIsLoading]
-  );
+    setDisplayedCards(displayedCards.concat(moreArticles));
+    setShowMore(true);
+  }
+
+  function handleLessArticles() {
+    setDisplayedCards(cards.slice());
+    setShowMore((show) => !show);
+  }
 
   return (
     <main className={styles.mainContent}>
       {isLoading && <Loader />}
-      {!isLoading &&
-        cards?.length !== 0 &&
-        cards?.map((card) => <Card card={card} key={card.id} />)}
-      {!isLoading && <Button type="show">Load More</Button>}
+      {!isLoading && displayedCards.length > 0 && (
+        <>
+          {displayedCards.map((card, index) => (
+            <Card card={card} key={index} />
+          ))}
+          <Button
+            type={!showMore ? "show" : "hide"}
+            onClick={showMore ? handleLessArticles : handleMoreArticles}
+          >
+            {showMore ? "Show Less" : "Load More"}
+          </Button>
+        </>
+      )}
     </main>
   );
 }

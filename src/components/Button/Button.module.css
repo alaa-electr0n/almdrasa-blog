@@ -1,23 +1,19 @@
 .btn {
+  grid-column: 1/-1;
   align-self: center;
-  grid-column: 2/3;
   margin-top: var(--default-padding);
-  border: 1px solid (var(--color-border-btn-75));
+  border: 1px solid #696a754d;
   font-size: var(--body-small-font-size);
   font-weight: var(--body-medium-font-weight);
   padding: 1.2rem 2.2rem;
   border-radius: var(--small-border-raduis);
   cursor: pointer;
   transition: all 0.3s ease;
+  background-color: transparent;
 }
 
 .btn:hover {
-  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.3);
-}
-button:focus,
-button:focus-visible {
-  color: var(--color-accent);
-  border-color: var(--color-accent-5);
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .show {
@@ -26,5 +22,5 @@ button:focus-visible {
 
 .hide {
   color: var(--color-dark);
-  border-color: var(--white);
+  border-color: #141624;
 }
