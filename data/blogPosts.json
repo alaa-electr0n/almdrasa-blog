@@ -4,7 +4,7 @@
       "authorName": "Tracey Wilson",
       "authorPic": "/assets/author-5.png",
       "postTitle": "The Impact of Technology on the Workplace: How Technology is Changing",
-      "postImage": "assets/headerPic-8.png",
+      "postImage": "/assets/headerPic-8.png",
       "postDate": "August 20, 2022",
       "catagory": "Technology",
       "id": 1
@@ -13,7 +13,7 @@
       "authorName": "Jason Francisco",
       "authorPic": "/assets/author-1.png",
       "postTitle": "The Unknown History of Castle Translvenia: Story Of Bloody Life",
-      "postImage": "assets/headerPic-1.png",
+      "postImage": "/assets/headerPic-1.png",
       "postDate": "April 19, 2023",
       "catagory": "Fictional",
       "id": 2
@@ -23,7 +23,7 @@
       "authorName": "Elizabeth Slavin",
       "authorPic": "/assets/author-2.png",
       "postTitle": "9 Places You Will Love Its Nature: How To Escape The City Pollution",
-      "postImage": "assets/headerPic-6.png",
+      "postImage": "/assets/headerPic-6.png",
       "postDate": "September 22, 2023",
       "catagory": "Nature",
       "id": 3
@@ -32,7 +32,7 @@
       "authorName": "Ernie Smith",
       "authorPic": "/assets/author-3.png",
       "postTitle": "Rewilding Urban Spaces: Bringing Nature Back to Our Concrete Jungles",
-      "postImage": "assets/headerPic-2.png",
+      "postImage": "/assets/headerPic-2.png",
       "postDate": "March 18, 2021",
       "catagory": "Nature",
       "id": 4
@@ -41,7 +41,7 @@
       "authorName": "Eric Smith",
       "authorPic": "/assets/author-4.png",
       "postTitle": "Unlocking the Secrets of Ancient Civilizations Through Advanced DNA Analysis",
-      "postImage": "assets/headerPic-3.png",
+      "postImage": "/assets/headerPic-3.png",
       "postDate": "May 20, 2020",
       "catagory": "Science",
       "id": 5
@@ -50,7 +50,7 @@
       "authorName": "Tracey Wilson",
       "authorPic": "/assets/author-5.png",
       "postTitle": "The Psychology of Color: How Hues Influence Consumer Behavior",
-      "postImage": "assets/headerPic-4.png",
+      "postImage": "/assets/headerPic-4.png",
       "postDate": "July 20, 2024",
       "catagory": "Marketing",
       "id": 6
@@ -60,7 +60,7 @@
       "authorName": "Jason Francisco",
       "authorPic": "/assets/author-1.png",
       "postTitle": "5G Revolution: How Next-Gen Networks Are Transforming Mobile Connectivity",
-      "postImage": "assets/headerPic-5.png",
+      "postImage": "/assets/headerPic-5.png",
       "postDate": "December 22, 2023",
       "catagory": "Technology",
       "id": 7
@@ -69,7 +69,7 @@
       "authorName": "Jason Francisco",
       "authorPic": "/assets/author-1.png",
       "postTitle": "Microscopic Marvels: The Unseen Beauty of Nature's Tiniest Organisms",
-      "postImage": "assets/headerPic-6.png",
+      "postImage": "/assets/headerPic-6.png",
       "postDate": "October 19, 2023",
       "catagory": "Technology",
       "id": 8
@@ -79,7 +79,7 @@
       "authorName": "Ernie Smith",
       "authorPic": "/assets/author-3.png",
       "postTitle": "The Psychology of Gaming: Why We Can't Stop Playing Just One",
-      "postImage": "assets/headerPic-7.png",
+      "postImage": "/assets/headerPic-7.png",
       "postDate": "October 19, 2023",
       "catagory": "Science",
       "id": 9

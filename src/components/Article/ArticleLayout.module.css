@@ -1,0 +1,26 @@
+.articleLayout {
+  display: grid;
+  grid-template-columns: auto 50vw auto;
+  gap: var(--default-padding);
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.article {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--default-padding) * 2);
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 600px) {
+  .articleLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .article {
+    padding: 2rem;
+    margin-bottom: 5rem;
+  }
+}

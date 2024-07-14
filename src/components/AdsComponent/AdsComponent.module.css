@@ -1,0 +1,38 @@
+.adsContainer {
+  width: 100%;
+}
+
+.adsContainer img {
+  display: inline-block;
+  margin: var(--default-padding) 0;
+  border-radius: var(--default-border-radius);
+}
+
+.ads {
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: var(--faint-gray-color);
+  border-radius: var(--default-border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ads span {
+  color: var(--color-btn-text);
+  display: inline-block;
+  font-weight: var(--article-regular-font-weight);
+}
+
+.ads span:nth-child(2) {
+  font-weight: var(--semibold-font-weight);
+  font-size: var(--article-regular-font-size);
+}
+
+.ads span:nth-child(1) {
+  font-size: var(--title-thin-font-size);
+}
+.ads span:nth-child(3) {
+  font-size: var(--body-font-size);
+}

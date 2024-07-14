@@ -1,0 +1,64 @@
+.catagory {
+  position: relative;
+  padding: 6px;
+
+  text-align: center;
+  font-size: var(--title-thin-font-size);
+  font-weight: var(--body-medium-font-weight);
+  color: var(--white);
+  background-color: var(--color-accent);
+  align-self: flex-start;
+  border-radius: var(--small-border-raduis);
+}
+
+.articleTitle {
+  line-height: var(--heading-h1-semibold-line-height);
+  font-size: var(--heading-h1-semibold-font-size);
+  font-weight: var(--semibold-font-weight);
+}
+
+.authorRow {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  gap: var(--default-padding);
+}
+
+@media (max-width: 600px) {
+  .authorRow {
+    width: 100%;
+  }
+}
+.authorImg {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+
+.authorName,
+.postDate {
+  font-size: var(--body-small-font-size);
+  line-height: var(--body-medium-line-height);
+  color: var(--card-color-text-light);
+}
+
+.authorName {
+  font-weight: var(--semibold-font-weight);
+}
+.postDate {
+  font-weight: var(--article-regular-font-weight);
+  margin-inline-start: calc(var(--default-padding) * 2);
+  color: var(--card-color-text-light);
+}
+
+.articleLandscape {
+  width: 80rem;
+  height: 46.2rem;
+  border-radius: var(--default-border-radius);
+}
+
+@media (max-width: 600px) {
+  .articleLandscape {
+    height: 20rem;
+  }
+}

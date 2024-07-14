@@ -52,29 +52,26 @@
   --input-color-bg: #52535f;
   --input-color-placeholder: #a1a1aa;
   --faint-gray-color: #e8e8ea;
-  --thin-page-text-color: #3b3c4a;
   --input-background: #f4f4f5;
 
   --secondary-50: #f6f6f7;
   --white: #ffffff;
-
-  /* background: #97989F;
-  background: #181A2A;
-  background: #E8E8EA;
-  background: #4B6BFB;
-  background: #FFFFFF;
-  background: #696A75;
-  background: #A1A1AA;
-  background: #52525B;
-  background: #141624;
-  background: #F6F6F7;
-  background: #141624;
-  background: #52525B;
-  --color-border-btn-75: #696A754D; */
+  --color-border-btn-75: #696a754d;
 }
 
 html {
   font-size: 62.5%;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 350px) {
+  html {
+    font-size: 50%;
+  }
 }
 
 body {
@@ -92,7 +89,9 @@ img {
   display: block;
   max-width: 100%;
 }
-
-button:focus,
-button:focus-visible {
+a:active,
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none;
 }

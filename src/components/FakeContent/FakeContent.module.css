@@ -1,0 +1,19 @@
+.contentContainer {
+}
+
+.contentContainer section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--default-padding);
+  margin: 2rem 0;
+}
+
+.contentContainer section h3 {
+  font-size: var(--heading-h3-semibold-font-size);
+  font-weight: var(--semibold-font-weight);
+  color: var(--card-color-text-primary);
+}
+
+.shortParagraph {
+  margin-top: 1rem;
+}
